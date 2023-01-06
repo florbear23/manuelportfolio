@@ -1,0 +1,109 @@
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    z-index:9;
+}
+
+.nav-fixed {
+    width: 100%;
+    position: fixed;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-active {
+    background-color:#0C1D31;
+    color: #fff;
+}
+
+header nav {
+    max-width: 1148px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.nav-title h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav .nav-links ul {
+    column-gap: 40px;
+}
+
+.nav-links ul li {
+    font-size: 18px;
+    font-weight: bold;
+    list-style: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-links ul li:hover{
+    color: #DF463C;
+    cursor: pointer;
+}
+
+
+
+
+.overlay{
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay i{
+    font-size: 32px;
+    color: #fff;
+    float: right;
+    padding: 20px;
+}
+
+.overlay-content{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        color: #fff;
+        font-size: 32px;
+}
+.overlay-content li{
+    cursor: pointer;
+}
+.overlay-content li:hover{
+    color: #DF463C;
+}
+
+nav i{
+    display: none !important;
+    font-size: 23px;
+    color: #fff;
+}
+
+@media only screen and (max-width:768px){
+    nav i{
+        display: block !important;
+    }
+    .nav-links{
+        display: none;
+    }
+
+}

@@ -1,0 +1,575 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: whitesmoke;
+}
+
+.flex-area,
+.mainContainer,
+header nav,
+nav .nav-links ul,
+.hero-design,
+.hero-container,
+.hero-name,
+.serviceContainer,
+.cardContainer,
+.serviceCard,
+.aboutContainer,
+.aboutMeContainer,
+.myworkContainer,
+.menuWork,
+.myworkCardContainer,
+.myworkCardInfo,
+.contactContainer,
+.fullNameContainer,
+.infonContainer01,
+.lastNameContainer,
+.messageContainer,
+.infoArea,
+.footerContainer,
+.footerInfo {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.mainContainer {
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    /* height: 3000px; */
+}
+
+
+/* hero design */
+.mainContainer .hero-design {
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: #fff url(../img/pic01.jpg) center center/cover no-repeat;
+}
+
+.hero-design .hero-container {
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 1148px;
+    width: 100%;
+    padding: 0 21px;
+}
+
+.hero-container .hero-name {
+    flex-direction: column;
+    row-gap: 10px;
+    width: 450px;
+    height: 367px;
+    padding-left: 21px;
+    /* From https://css.glass */
+    background: rgba(50, 11, 11, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+}
+
+.hero-name h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.hero-name h2 span {
+    font-size: 48px;
+    color: #4395F4;
+}
+
+.hero-name p {
+    font-size: 36px;
+    color: #CAD6E2;
+}
+
+.hero-name button {
+    width: 270px;
+    height: 48px;
+    margin-top: 30px;
+    font-size: 24px;
+    background: #DF463C;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+}
+
+.hero-name button:hover {
+    opacity: 0.9;
+}
+
+.serviceContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1148px;
+    width: 100%;
+    padding: 100px 21px;
+    margin: auto;
+}
+
+.serviceContainer .serviceTitle {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+
+.serviceTitle span {
+    font-size: 48px;
+    font-weight: bold;
+    color: #DF463C;
+}
+
+.serviceContainer .cardContainer {
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.cardContainer .serviceCard {
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 20px;
+    max-width: 320px;
+    width: 100%;
+    min-height: 545px;
+    padding: 50px 24px 100px;
+    background-color: #0C1D31;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 10px 6px 5px 0px rgba(196, 182, 182, 0.57);
+}
+
+.serviceCard img {
+    width: 100%;
+    height: 150px;
+}
+
+.serviceCard h2 {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.serviceCard p {
+    font-size: 18px;
+    color: #CAD6E2;
+}
+
+.serviceCard a {
+    text-decoration: none;
+    color: #DF463C;
+    font-size: 24px;
+
+}
+
+.serviceCard .cardLink {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    flex-direction: column-reverse;
+}
+
+.aboutContainer {
+    flex-wrap: wrap;
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+    column-gap: 100px;
+    row-gap: 30px;
+    padding: 30px 10px 50px;
+}
+
+.aboutContainer .profileContainer,
+.aboutContainer .aboutMeContainer {
+    max-width: 510px;
+    width: 100%;
+}
+
+.aboutContainer .profileContainer img {
+    max-width: 567px;
+    width: 100%;
+    height: auto;
+    box-shadow: 10px 6px 5px 0px rgba(196, 182, 182, 0.57);
+    object-fit: cover;
+}
+
+.aboutMeContainer {
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-right: 100px;
+    row-gap: 50px;
+}
+
+.aboutMeContainer h2 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #003169;
+}
+
+.aboutMeContainer h2 span {
+    font-size: 42px;
+    font-weight: bold;
+    color: #DF463C;
+}
+
+.aboutMeContainer p {
+    font-size: 24px;
+    font-weight: 600;
+    color: #003169;
+    line-height: 35px;
+}
+
+.aboutMeContainer button {
+    font-size: 16px;
+    background-color: #DF463C;
+    border-radius: 10px;
+    width: 150px;
+    height: 37px;
+    border: none;
+    color: #fff;
+}
+
+.myworkContainer {
+    flex-direction: column;
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.myworkContainer .menuWork {
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 15px;
+    overflow: hidden;
+}
+
+
+.menuWork h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #003169;
+}
+
+.menuWork h2 span {
+    font-size: 36px;
+    font-weight: bold;
+    color: #DF463C;
+}
+
+.menuWork ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 100px;
+    list-style: none;
+}
+
+.menuWork ul li {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn.active {
+    color: #DF463C;
+}
+
+.myworkContainer .myworkCardContainer {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    row-gap: 30px;
+    column-gap: 50px;
+    max-width: 1180px;
+    width: 100%;
+    padding: 10px 5px;
+}
+
+.filterDiv {
+    display: none;
+}
+
+.show {
+    display: block;
+    transition: 0.3s ease-in-out;
+}
+
+.myworkCard {
+    position: relative;
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px 15px;
+}
+
+.myworkCard img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 10px 6px 5px 0px rgba(196, 182, 182, 0.57);
+    filter: brightness(50%);
+}
+
+
+.myworkCardInfo {
+    flex-direction: column;
+    row-gap: 5px;
+    position: absolute;
+    top: 130px;
+    left: 13px;
+}
+
+.myworkCardInfo h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.myworkCardInfo p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.myworkCardInfo button {
+    width: 187px;
+    height: 30px;
+    color: #fff;
+    background-color: #DF463C;
+    border: none;
+    border-radius: 10px;
+}
+
+.contactContainer {
+    flex-wrap: wrap;
+    column-gap: 30px;
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 10px;
+
+}
+
+.contactContainer .contactMeContainer {
+    max-width: 774px;
+    width: 100%;
+}
+
+.contactMeContainer h2 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #003169;
+}
+
+.contactMeContainer h2 span {
+    font-size: 42px;
+    font-weight: bold;
+    color: #DF463C;
+}
+
+.contactMeContainer form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 20px;
+}
+
+form .infonContainer01 {
+    column-gap: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+form .fullNameContainer {
+    flex-direction: column;
+    max-width: 311px;
+    width: 100%;
+}
+
+.fullNameContainer label {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4395F4;
+}
+
+.fullNameContainer input {
+    height: 38px;
+    outline: none;
+    border: 1px solid #7FB6F6;
+    padding: 5px;
+}
+
+form .lastNameContainer {
+    flex-direction: column;
+    max-width: 311px;
+    width: 100%;
+}
+
+.lastNameContainer label {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4395F4;
+}
+
+.lastNameContainer input {
+    height: 38px;
+    outline: none;
+    border: 1px solid #7FB6F6;
+    padding: 5px;
+}
+
+
+form .messageContainer {
+    flex-direction: column;
+    width: 100%;
+}
+
+.messageContainer label {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4395F4;
+}
+
+.messageContainer textarea {
+    max-width: 672px;
+    width: 100%;
+    height: 190px;
+    border: 1px solid #7FB6F6;
+    padding: 5px;
+    outline: none;
+}
+
+form input[type=submit] {
+    width: 180px;
+    height: 38px;
+    font-size: 16px;
+    background-color: #DF463C;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+}
+
+
+.contactContainer .informationContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    row-gap: 22px;
+    max-width: 346px;
+    width: 100%;
+}
+
+.informationContainer h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #003169;
+}
+
+.informationContainer .infoArea {
+    flex-direction: column;
+    row-gap: 5px;
+    width: 276px;
+}
+
+.infoArea h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #DF463C;
+}
+
+.infoArea p {
+    font-size: 18;
+    font-weight: bold;
+    color: #003169;
+}
+
+.informationContainer h2 span {
+    font-size: 18;
+    font-weight: bold;
+    color: #DF463C;
+}
+
+
+@media only screen and (max-width:1100px) {
+
+    /* CSS rules here */
+    .mainContainer {
+        overflow: hidden;
+    }
+
+    .aboutMeContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .myworkContainer .menuWork {
+        flex-direction: column;
+        row-gap: 30px;
+        text-align: center;
+    }
+
+    .myworkContainer .myworkCardContainer {
+        justify-content: center;
+        column-gap: 20px;
+    }
+
+    .contactContainer {
+        row-gap: 30px;
+        padding: 30px 16px;
+    }
+
+    form .infonContainer01 {
+        justify-content: flex-start;
+        row-gap: 30px;
+    }
+
+    form .messageContainer {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        max-width: 100%;
+    }
+
+    .messageContainer textarea {
+        max-width: 100%;
+    }
+
+    .contactContainer .contactMeContainer {
+        max-width: 100%;
+    }
+
+    .contactContainer .informationContainer {
+        max-width: 100%;
+    }
+
+    .menuWork ul {
+        column-gap: 20px;
+    }
+
+    form .fullNameContainer {
+        max-width: 100%;
+    }
+
+    form .lastNameContainer {
+        max-width: 100%;
+    }
+
+}
