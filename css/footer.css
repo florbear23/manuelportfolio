@@ -2,7 +2,8 @@ footer{
     width: 100%;
     min-height: 300px;
     background-color: #0C1D31;
-    padding: 30px 0; 
+    margin-top: 60px;
+    padding: 30px 0;
 }
 
 footer .footerContainer{
@@ -60,14 +61,16 @@ footer .footerContainer{
     row-gap: 28px;
     list-style: none;
 }
-.footerMenu ul li{
+.footerMenu ul li a{
+    text-decoration: none;
+    color: #fff;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
     cursor: pointer;
 }
 
-.footerMenu ul li:hover{
+.footerMenu ul li a:hover{
     color: #DF463C;
 }
 

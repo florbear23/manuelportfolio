@@ -1,0 +1,81 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactContainer2{
+    flex-wrap: wrap;
+    max-width: 1185px;
+    width: 100%;
+    margin: 70px auto 0;
+    padding: 20px 10px;
+    column-gap: 20px;
+    row-gap: 50px;
+}
+
+.contactContainer2 .contactInformation2{
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 535px;
+    width: 100%;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.contactInformation2 h2{
+    font-size: 42px;
+    font-weight: bold;
+    color: #02306A;
+}
+
+.contactInformation2 h2 span{
+    color: #DF463C;
+}
+
+.contactInformation2 .informaionArea{
+    width: 100%;
+}
+
+.informaionArea h3{
+    font-size: 32px;
+    font-weight: bold;
+    color: #165D91;
+}
+
+.informaionArea p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #0C1D31;
+}
+
+.contactContainer2 .contactImg{
+    max-width: 535px;
+    width: 100%;
+}
+
+.contactContainer2 .contactImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.contactContainer .contactMeContainer {
+    max-width: 100%;
+    width: 100%;
+}
+
+.contactContainer {
+    max-width: 1119px;
+    width: 100%;
+}
+
+form .fullNameContainer, form .lastNameContainer {
+    max-width: 524px;
+    width: 100%;
+}
+
+.messageContainer textarea{
+    max-width: 100%;
+}

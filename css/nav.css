@@ -9,6 +9,13 @@ header {
     z-index:9;
 }
 
+
+.header-plain {
+    background: #0C1D31;
+}
+
+
+
 .nav-fixed {
     width: 100%;
     position: fixed;
@@ -38,14 +45,19 @@ nav .nav-links ul {
 }
 
 .nav-links ul li {
-    font-size: 18px;
-    font-weight: bold;
     list-style: none;
-    color: #fff;
     cursor: pointer;
 }
 
-.nav-links ul li:hover{
+.nav-links ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.nav-links ul li a:hover{
     color: #DF463C;
     cursor: pointer;
 }
@@ -85,10 +97,12 @@ nav .nav-links ul {
         color: #fff;
         font-size: 32px;
 }
-.overlay-content li{
+.overlay-content li a{
+    text-decoration: none;
     cursor: pointer;
+    color: #fff;
 }
-.overlay-content li:hover{
+.overlay-content li a:hover{
     color: #DF463C;
 }
 

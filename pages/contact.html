@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="mainContainer">
+
+        <header class="flex-area header-plain">
+            <nav>
+                <div class="nav-title"><h2>logo</h2></div>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="../index.html"> Home</a></li>
+                        <li><a href="../pages/about.html">About</a></li>
+                        <li><a href="../pages/porfolio.html">Porfolio</a></li>
+                        <li><a href="../pages/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="openNav()"></i>
+            </nav>
+        </header>
+
+        <div class="overlay" id="myNav">
+            <i class="fa-solid fa-xmark" onclick="closeNav()"></i>
+            <ul class="overlay-content">
+                <li><a href="../index.html"> Home</a></li>
+                <li><a href="../pages/about.html">About</a></li>
+                <li><a href="../pages/porfolio.html">Porfolio</a></li>
+                <li><a href="../pages/contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="contactContainer2 flex">
+            <div class="contactInformation2 flex">
+                <h2>Contact <span>Information</span></h2>
+                <div class="informaionArea">
+                    <h3>Email:</h3>
+                    <p>bersamina2323@gmail.com</p>
+                </div>
+                <div class="informaionArea">
+                    <h3>Contact no:</h3>
+                    <p>09162195027</p>
+                </div>
+                <div class="informaionArea">
+                    <h3>Address:</h3>
+                    <p>93-a P.zamora st. West Rembo Makati City</p>
+                </div>
+            </div>
+            <div class="contactImg">
+                <img src="../img/pic01.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="contactContainer">
+
+            <div class="contactMeContainer">
+                <h2>Contact <span>Me</span></h2>
+                <form action="">
+                    <div class="infonContainer01">
+                        <div class="fullNameContainer">
+                            <label>Full Name</label>
+                            <input type="text" id="" placeholder="Your Name" required>
+                        </div>
+                        <div class="lastNameContainer">
+                            <label>Last Name</label>
+                            <input type="text" id="" placeholder="Last Name" required>
+                        </div>
+                    </div>
+                    <div class="messageContainer">
+                        <label>Message</label>
+                        <textarea name="" id="" cols="30" rows="10" required></textarea>
+                    </div>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+<footer>
+
+    <div class="footerContainer">
+        <div class="footerInfo footerMe">
+            <h2>Logo</h2>
+            <h3>About me</h3>
+            <p>I'm a Free lance Front-End Developer  in makati city. I have serious passion for UI design and creating intuitive, dynamic user experiences.
+            Let's make something special.</p>
+        </div>
+
+        <div class="footerInfo footerMenu">
+            <h2>Links</h2>
+            <ul>
+                <li><a href="../index.html"> Home</a></li>
+                <li><a href="../pages/about.html">About</a></li>
+                <li><a href="../pages/porfolio.html">Porfolio</a></li>
+                <li><a href="../pages/contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footerInfo">
+            <h2>Contact Information</h2>
+            <div class="footerInfoArea">
+                <h3>Email:</h3>
+                <p>bersamina2323@gmail.com</p>
+            </div>
+            <div class="footerInfoArea">
+                <h3>Contact no.:</h3>
+                <p>09162195027</p>
+            </div>
+            <div class="footerInfoArea">
+                <h3>Address:</h3>
+                <p>93-a P.zamora st. West Rembo Makati City</p>
+            </div>
+        </div>
+    </div>
+
+</footer>
+</body>
+<script src="../js/main.js"></script>
+</html>

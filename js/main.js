@@ -72,7 +72,7 @@ for (var i = 0; i < btns.length; i++) {
 //         let output = ''
 //         dataUser.forEach(function(project){
 //             output += `
-//             <div class="myworkCard filterDiv cars">
+//             <div class="myworkCard filterDiv ui">
 //                 <img src="${project.pictureProject}">
 //                 <div class="myworkCardInfo">
 //                     <h2>Landing Page</h2>
@@ -88,4 +88,20 @@ for (var i = 0; i < btns.length; i++) {
 // }
 
 // projectList();
+
+function openSkills(evt, skillName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(skillName).style.display = "flex";
+    evt.currentTarget.className += " active";
+  }
+
+
 

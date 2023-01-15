@@ -1,0 +1,45 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.porfolioWallContainer{
+    flex-wrap: wrap;
+    max-width: 1185px;
+    width: 100%;
+    margin: 70px auto 0;
+    padding: 20px 10px;
+    column-gap: 20px;
+    row-gap: 50px;
+}
+
+.porfolioWallContainer .porfolioInfo{
+    max-width: 527px;
+    width: 100%;
+}
+.porfolioInfo h2{
+    font-size: 42px;
+    font-weight: bold;
+    color: #0C1D31;
+}
+
+.porfolioInfo h2 span{
+    color: #DF463C;
+}
+
+.porfolioInfo p{
+    font-size: 24px;
+    line-height: 42px;
+}
+
+
+.porfolioWallContainer .porfolioImgContainer{
+    max-width: 562px;
+    width: 100%;
+}
+
+.porfolioImgContainer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}

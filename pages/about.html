@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>my personal porfolio</title>
+</head>
+<body>
+    <div class="mainContainer">
+
+        <header class="flex-area header-plain">
+            <nav>
+                <div class="nav-title"><h2>logo</h2></div>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="../index.html"> Home</a></li>
+                        <li><a href="../pages/about.html">About</a></li>
+                        <li><a href="../pages/porfolio.html">Porfolio</a></li>
+                        <li><a href="../pages/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="openNav()"></i>
+            </nav>
+        </header>
+
+        <div class="overlay" id="myNav">
+            <i class="fa-solid fa-xmark" onclick="closeNav()"></i>
+            <ul class="overlay-content">
+                <li><a href="../index.html"> Home</a></li>
+                <li><a href="../pages/about.html">About</a></li>
+                <li><a href="../pages/porfolio.html">Porfolio</a></li>
+                <li><a href="../pages/contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="mainAboutMeContainer">
+            <div class="aboutMeContainer2 flex">
+                <div class="aboutInfo flex">
+                    <h2>About <span>Me</span></h2>
+                    <p>I'm a Free lance Front-End Developer  in makati city
+                    . I have serious passion for UI design and creating intuitive, dynamic user experiences.
+                    Let's make something special.</p>
+                    <h3>Certificate</h3>
+                    <div class="certiContainer">
+                        <ul class="flex">
+                            <li>certificate</li>
+                            <li>certificate</li>
+                            <li>certificate</li>
+                            <li>certificate</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="aboutImg">
+                    <img src="../img/pic01.jpg" alt="">
+                </div>
+            </div>
+            <div class="aboutImagesContainer">
+                <ul class="flex">
+                    <li><img src="../img/pic01.jpg" alt=""></li>
+                    <li><img src="../img/pic01.jpg" alt=""></li>
+                    <li><img src="../img/pic01.jpg" alt=""></li>
+                    <li><img src="../img/pic01.jpg" alt=""></li>
+                </ul>
+            </div>
+        </div>
+
+       
+
+        <div class="aboutSkillContainer flex">
+            <div class="skillPicture flex">
+                <img src="../img/profilePic_01.jpg" alt="">
+            </div>
+            <div class="skillRangeContainer flex">
+                <div class="skillButton flex tab">
+                    <button class="tablinks active" onclick="openSkills(event, 'WebsiteDesign')">Design Skill</button>
+                    <button class="tablinks" onclick="openSkills(event, 'ProgramDesign')">Front/Back-end Skills</button>
+                    <button class="tablinks" onclick="openSkills(event, 'ToolDesign')">Computer Skills</button>
+                </div>
+                <div class="skillInfo flex tabcontent tabcontent2 " id="WebsiteDesign">
+                    <h2>DESIGN <span>SKILLS</span></h2>
+                    <ul class="flex">
+                        <li>HTML/CSS</li>
+                        <li>JAVASRICPT</li>
+                        <li>REACT FRAME WORK</li>
+                        <li>BOOTSRAP 3/4/5</li>
+                        <li>PHP BACK-END</li>
+                    </ul>
+                </div>
+                <div class="skillInfo flex tabcontent" id="ProgramDesign">
+                    <h2>DESIGN <span>pRogram</span></h2>
+                    <ul class="flex">
+                        <li>HTML/CSS</li>
+                        <li>JAVASRICPT</li>
+                        <li>REACT FRAME WORK</li>
+                        <li>BOOTSRAP 3/4/5</li>
+                        <li>PHP BACK-END</li>
+                    </ul>
+                </div>
+                <div class="skillInfo flex tabcontent" id="ToolDesign">
+                    <h2>DESIGN <span>Computer</span></h2>
+                    <ul class="flex">
+                        <li>HTML/CSS</li>
+                        <li>JAVASRICPT</li>
+                        <li>REACT FRAME WORK</li>
+                        <li>BOOTSRAP 3/4/5</li>
+                        <li>PHP BACK-END</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="myWorkExpContainer flex">
+            <div class="workHistoryContainer flex">
+                <h2>My Work <span>Experience</span></h2>
+                <div class="workHistory flex">
+                    <h3>I.T <span>Coodinator:</span></h3>
+                    <p><span>Boro Company</span>  June 5 2019  To June 30 2020.
+                    Monitoring Network System and Computer Repairing  Everyday</p>
+                </div>
+                <div class="workHistory flex">
+                    <h3>Front End <span>Developer:</span></h3>
+                    <p><span> Digits Comp.</span> Nov 4 2018 To May 4 2019.
+                    Creating Website system using html ,Css Boostrap Framework And Back end Using Php.</p>
+                </div>
+                <div class="workHistory flex">
+                    <h3>Back End <span>Developer:</span></h3>
+                    <p><span>Rivista solution</span> June 10 2018  To October 20 2018.
+                    Creating Sytem using Odoo10 crm  and Back End using Pyton Language</p>
+                </div>
+                <div class="workHistory flex">
+                    <h3>Ouality <span>Control:</span></h3>
+                    <p><span>Pivot Hawks</span> June 5 2019  To June 30 2020.
+                    picos machine factory i Check One By One of Unit If it goods No Problem</p>
+                </div>
+            </div>
+            <div class="workHistoryImg">
+                <img src="../img/pic01.jpg" alt="">
+            </div>
+        </div>
+
+
+    </div>
+<footer>
+
+    <div class="footerContainer">
+        <div class="footerInfo footerMe">
+            <h2>Logo</h2>
+            <h3>About me</h3>
+            <p>I'm a Free lance Front-End Developer  in makati city. I have serious passion for UI design and creating intuitive, dynamic user experiences.
+            Let's make something special.</p>
+        </div>
+
+        <div class="footerInfo footerMenu">
+            <h2>Links</h2>
+            <ul>
+                <li><a href="../index.html"> Home</a></li>
+                <li><a href="../pages/about.html">About</a></li>
+                <li><a href="../pages/porfolio.html">Porfolio</a></li>
+                <li><a href="../pages/contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footerInfo">
+            <h2>Contact Information</h2>
+            <div class="footerInfoArea">
+                <h3>Email:</h3>
+                <p>bersamina2323@gmail.com</p>
+            </div>
+            <div class="footerInfoArea">
+                <h3>Contact no.:</h3>
+                <p>09162195027</p>
+            </div>
+            <div class="footerInfoArea">
+                <h3>Address:</h3>
+                <p>93-a P.zamora st. West Rembo Makati City</p>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+
+
+</body>
+<script src="/js/main.js"></script>
+</html>

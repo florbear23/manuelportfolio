@@ -18,10 +18,10 @@
                 <div class="nav-title"><h2>logo</h2></div>
                 <div class="nav-links">
                     <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Porfolio</li>
-                        <li>Contact</li>
+                        <li><a href="./index.html"> Home</a></li>
+                        <li><a href="./pages/about.html">About</a></li>
+                        <li><a href="./pages/porfolio.html">Porfolio</a></li>
+                        <li><a href="./pages/contact.html">Contact</a></li>
                     </ul>
                 </div>
                 <i class="fa-solid fa-bars" onclick="openNav()"></i>
@@ -31,10 +31,10 @@
         <div class="overlay" id="myNav">
             <i class="fa-solid fa-xmark" onclick="closeNav()"></i>
             <ul class="overlay-content">
-                <li>Home</li>
-                <li>About</li>
-                <li>Porfolio</li>
-                <li>Contact</li>
+                <li><a href="./index.html"> Home</a></li>
+                <li><a href="./pages/about.html">About</a></li>
+                <li><a href="./pages/porfolio.html">Porfolio</a></li>
+                <li><a href="./pages/contact.html">Contact</a></li>
             </ul>
         </div>
 
@@ -47,121 +47,122 @@
                 </div>
             </div>
         </div>
+        <div class="container">
 
-        <div class="serviceContainer">
-            <h2 class="serviceTitle">This Is My Expertise <span> The Sevice I Provide</span></h2>
-            <div class="cardContainer">
+            <div class="serviceContainer">
+                <h2 class="serviceTitle">This Is My Expertise <span> The Sevice I Provide</span></h2>
+                <div class="cardContainer">
 
-                <div class="serviceCard">
-                    <img src="https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg" alt="sample">
-                    <h2>Web Development</h2>
-                    <p>Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services</p>
-                    <div class="cardLink">
-                        <a href="#">Learn More</a>
+                    <div class="serviceCard">
+                        <img src="https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg" alt="sample">
+                        <h2>Web Development</h2>
+                        <p>Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services</p>
+                        <div class="cardLink">
+                            <a href="#">Learn More</a>
+                        </div>
                     </div>
-                </div>
 
-                <div class="serviceCard">
-                    <img src="https://img.freepik.com/free-vector/cartoon-web-design-background_52683-70879.jpg?w=2000" alt="sample">
-                    <h2>Web Designs</h2>
-                    <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development.</p>
-                    <div class="cardLink">
-                        <a href="#">Learn More</a>
+                    <div class="serviceCard">
+                        <img src="https://img.freepik.com/free-vector/cartoon-web-design-background_52683-70879.jpg?w=2000" alt="sample">
+                        <h2>Web Designs</h2>
+                        <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development.</p>
+                        <div class="cardLink">
+                            <a href="#">Learn More</a>
+                        </div>
                     </div>
-                </div>
 
-                <div class="serviceCard">
-                    <img src="https://www.mtu.edu/cs/what/images/what-is-computer-science-banner1600.jpg" alt="sample">
-                    <h2>Computer Tech</h2>
-                    <p>computer technology. the activity of designing and constructing and programming computers. type of: engineering, technology. the practical application of science to commerce or industry. </p>
-                    <div class="cardLink">
-                        <a href="#">Learn More</a>
+                    <div class="serviceCard">
+                        <img src="https://www.mtu.edu/cs/what/images/what-is-computer-science-banner1600.jpg" alt="sample">
+                        <h2>Computer Tech</h2>
+                        <p>computer technology. the activity of designing and constructing and programming computers. type of: engineering, technology. the practical application of science to commerce or industry. </p>
+                        <div class="cardLink">
+                            <a href="#">Learn More</a>
+                        </div>
                     </div>
-                </div>
 
+                </div>
             </div>
-        </div>
-        <div class="aboutContainer">
-            <div class="profileContainer">
-                <img src="./img/profilePic_01.jpg" alt="profile_pic">
+            <div class="aboutContainer">
+                <div class="profileContainer">
+                    <img src="./img/profilePic_01.jpg" alt="profile_pic">
+                </div>
+                <div class="aboutMeContainer">
+                    <h2>About <span>Me</span></h2>
+                    <p>I'm a Free lance Front-End Developer  in makati city
+                    . I have serious passion for UI design and creating intuitive, dynamic user experiences.
+                    Let's make something special.</p>
+                    <button>See more</button>
+                </div>
             </div>
-            <div class="aboutMeContainer">
-                <h2>About <span>Me</span></h2>
-                <p>I'm a Free lance Front-End Developer  in makati city
-                . I have serious passion for UI design and creating intuitive, dynamic user experiences.
-                Let's make something special.</p>
-                <button>See more</button>
-            </div>
-        </div>
-        <div class="myworkContainer">
+            <div class="myworkContainer">
 
-            <div class="menuWork">
-                <h2>My <span>Latest Work</span></h2>
-                <ul id="myBtnContainer">
-                    <li class="btn active" onclick="filterSelection('all')">All</li>
-                    <li class="btn" onclick="filterSelection('ui')">Ui design</li>
-                    <li class="btn" onclick="filterSelection('landingPage')">Landing Page</li>
-                </ul>
-            </div>
-
-            <div class="myworkCardContainer">
-
-                <div class="myworkCard filterDiv ui">
-                    <img src="img/project/huddleProject.jpg" alt="sampleCard">
-                    <div class="myworkCardInfo">
-                        <h2>Huddle Landing Page</h2>
-                        <p>this website is frontEnd mentor Project</p>
-                        <a href="https://florbear23.github.io/landingPage02/" target="_blank"><button>Check Demo</button></a>
-                    </div>
+                <div class="menuWork">
+                    <h2>My <span>Latest Work</span></h2>
+                    <ul id="myBtnContainer">
+                        <li class="btn active" onclick="filterSelection('all')">All</li>
+                        <li class="btn" onclick="filterSelection('ui')">Ui design</li>
+                        <li class="btn" onclick="filterSelection('landingPage')">Landing Page</li>
+                    </ul>
                 </div>
 
-                <div class="myworkCard filterDiv ui">
-                    <img src="img/project/fyloProject.jpg" alt="sampleCard">
-                    <div class="myworkCardInfo">
-                        <h2>Fylo Website</h2>
-                        <p>This is landing page website </p>
-                        <a href="https://florbear23.github.io/landingPage03/" target="_blank"><button>Check Demo</button></a>
-                    </div>
-                </div>
+                <div class="myworkCardContainer">
 
-                <div class="myworkCard filterDiv ui">
-                    <img src="img/project/product.jpg" alt="sampleCard">
-                    <div class="myworkCardInfo">
-                        <h2>Product Landing Page</h2>
-                        <p>This website is product document</p>
-                        <a href="https://florbear23.github.io/landingpage04r/" target="_blank"><button>Check Demo</button></a>
+                    <div class="myworkCard filterDiv ui">
+                        <img src="img/project/huddleProject.jpg" alt="sampleCard">
+                        <div class="myworkCardInfo">
+                            <h2>Huddle Landing Page</h2>
+                            <p>this website is frontEnd mentor Project</p>
+                            <a href="https://florbear23.github.io/landingPage02/" target="_blank"><button>Check Demo</button></a>
+                        </div>
                     </div>
-                </div>
 
-                <div class="myworkCard filterDiv landingPage">
-                    <img src="./img/pic01.jpg" alt="sampleCard">
-                    <div class="myworkCardInfo">
-                        <h2>Landing Page</h2>
-                        <p>This is a sample design
-                        CardSample2</p>
-                        <button>Check Demo</button>
+                    <div class="myworkCard filterDiv ui">
+                        <img src="img/project/fyloProject.jpg" alt="sampleCard">
+                        <div class="myworkCardInfo">
+                            <h2>Fylo Website</h2>
+                            <p>This is landing page website </p>
+                            <a href="https://florbear23.github.io/landingPage03/" target="_blank"><button>Check Demo</button></a>
+                        </div>
                     </div>
-                </div>
 
-                <div class="myworkCard filterDiv landingPage">
-                    <img src="./img/pic01.jpg" alt="sampleCard">
-                    <div class="myworkCardInfo">
-                        <h2>Landing Page</h2>
-                        <p>This is a sample design
-                        CardSample2</p>
-                        <button>Check Demo</button>
+                    <div class="myworkCard filterDiv ui">
+                        <img src="img/project/product.jpg" alt="sampleCard">
+                        <div class="myworkCardInfo">
+                            <h2>Product Landing Page</h2>
+                            <p>This website is product document</p>
+                            <a href="https://florbear23.github.io/landingpage04r/" target="_blank"><button>Check Demo</button></a>
+                        </div>
                     </div>
-                </div>
 
-                <div class="myworkCard filterDiv landingPage">
-                    <img src="./img/pic01.jpg" alt="sampleCard">
-                    <div class="myworkCardInfo">
-                        <h2>Landing Page</h2>
-                        <p>This is a sample design
-                        CardSample2</p>
-                        <button>Check Demo</button>
+                    <div class="myworkCard filterDiv landingPage">
+                        <img src="./img/pic01.jpg" alt="sampleCard">
+                        <div class="myworkCardInfo">
+                            <h2>Landing Page</h2>
+                            <p>This is a sample design
+                            CardSample2</p>
+                            <button>Check Demo</button>
+                        </div>
                     </div>
-                </div>
+
+                    <div class="myworkCard filterDiv landingPage">
+                        <img src="./img/pic01.jpg" alt="sampleCard">
+                        <div class="myworkCardInfo">
+                            <h2>Landing Page</h2>
+                            <p>This is a sample design
+                            CardSample2</p>
+                            <button>Check Demo</button>
+                        </div>
+                    </div>
+
+                    <div class="myworkCard filterDiv landingPage">
+                        <img src="./img/pic01.jpg" alt="sampleCard">
+                        <div class="myworkCardInfo">
+                            <h2>Landing Page</h2>
+                            <p>This is a sample design
+                            CardSample2</p>
+                            <button>Check Demo</button>
+                        </div>
+                    </div>
 
             </div>
         </div>
@@ -208,6 +209,7 @@
             </div>
 
         </div>
+        </div>
     </div>
 <footer>
 
@@ -222,10 +224,10 @@
         <div class="footerInfo footerMenu">
             <h2>Links</h2>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Porfolio</li>
-                <li>Contact</li>
+                <li><a href="./index.html"> Home</a></li>
+                <li><a href="./pages/about.html">About</a></li>
+                <li><a href="./pages/porfolio.html">Porfolio</a></li>
+                <li><a href="./pages/contact.html">Contact</a></li>
             </ul>
         </div>
 
@@ -248,5 +250,5 @@
 
 </footer>
 </body>
-<script src="js/main.js"></script>
+<script src="../Porfoliov2-phase-2/js/main.js"></script>
 </html>
