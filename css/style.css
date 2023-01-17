@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:  Lato,Arial;
 }
 
 body {
@@ -44,6 +46,8 @@ nav .nav-links ul,
     width: 100%;
 }
 
+
+
 .container{
     flex-direction: column;
     max-width: 1185px;
@@ -70,7 +74,7 @@ nav .nav-links ul,
     row-gap: 10px;
     width: 450px;
     height: 367px;
-    padding-left: 21px;
+    padding: 0 21px;
     /* From https://css.glass */
     background: rgba(50, 11, 11, 0.1);
     backdrop-filter: blur(5px);
@@ -91,9 +95,15 @@ nav .nav-links ul,
 }
 
 .hero-name p {
-    font-size: 36px;
+    font-size: 2.26rem;
     color: #CAD6E2;
+    height: 30px;
 }
+.hero-name p span{
+    color: #DF463C;
+    font-weight: bold;
+}
+
 
 .hero-name button {
     width: 270px;
@@ -512,6 +522,9 @@ form input[type=submit] {
     color: #DF463C;
 }
 
+
+
+
 @media only screen and (max-width:1170px){
     .container{
         max-width: 1024px;
@@ -597,12 +610,23 @@ form input[type=submit] {
 }
 
 @media only screen and (max-width:600px){
+    .container .hero-name {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .hero-name p {
+        height: auto;
+    }
     .hero-name button {
+        align-self: center;
         width: 80%;
     }
     form input[type=submit] {
         width: 100%;
     }
+
 }
 
 @media only screen and (max-width:280px){

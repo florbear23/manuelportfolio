@@ -7,10 +7,15 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/freeloder.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <title>my personal porfolio</title>
 </head>
 <body>
+    <div class="loaderContainer">
+        <span class="loader"></span>
+    </div>
+    
     <div class="mainContainer">
 
         <header class="flex-area">
@@ -38,15 +43,16 @@
             </ul>
         </div>
 
-        <div class="hero-design">
+        <div class="hero-design waterEffect" >
             <div class="hero-container">
                 <div class="hero-name">
                     <h2>Hi  I’m <span>Manuel</span></h2>
-                    <p>I’m Front-End Developer</p>
-                    <button>See More About Me</button>
+                    <p href="" class="typewrite" data-period="2000" data-type='[ "Front-End Developer ", "a Freelancer"]'> <span class="textWrapHero"></span></p>
+                    <button>See More</button>
                 </div>
             </div>
         </div>
+
         <div class="container">
 
             <div class="serviceContainer">
@@ -211,7 +217,7 @@
         </div>
         </div>
     </div>
-<footer>
+<footer class="mainContainer">
 
     <div class="footerContainer">
         <div class="footerInfo footerMe">
@@ -250,5 +256,11 @@
 
 </footer>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha512-bnIvzh6FU75ZKxp0GXLH9bewza/OIw6dLVh9ICg0gogclmYGguQJWl8U30WpbsGTqbIiAwxTsbe76DErLq5EDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.ripples@0.6.3/dist/jquery.ripples.min.js"></script>
+<script src="./js/waterEffect.js"></script>
 <script src="./js/main.js"></script>
+
+
+
 </html>
