@@ -20,7 +20,7 @@
 
         <header class="flex-area">
             <nav>
-                <div class="nav-title"><h2>logo</h2></div>
+                <div class="nav-title"><h2>MBPORTFOLIO</h2></div>
                 <div class="nav-links">
                     <ul>
                         <li><a href="./index.html"> Home</a></li>
@@ -33,7 +33,7 @@
             </nav>
         </header>
 
-        <div class="overlay" id="myNav">
+        <section class="overlay" id="myNav">
             <i class="fa-solid fa-xmark" onclick="closeNav()"></i>
             <ul class="overlay-content">
                 <li><a href="./index.html"> Home</a></li>
@@ -41,9 +41,9 @@
                 <li><a href="./pages/porfolio.html">Porfolio</a></li>
                 <li><a href="./pages/contact.html">Contact</a></li>
             </ul>
-        </div>
+        </section>
 
-        <div class="hero-design waterEffect" >
+        <section class="hero-design waterEffect" >
             <div class="hero-container">
                 <div class="hero-name">
                     <h2>Hi  I’m <span>Manuel</span></h2>
@@ -51,11 +51,11 @@
                     <button>See More</button>
                 </div>
             </div>
-        </div>
+        </section>
 
         <div class="container">
 
-            <div class="serviceContainer">
+            <section class="serviceContainer">
                 <h2 class="serviceTitle">This Is My Expertise <span> The Sevice I Provide</span></h2>
                 <div class="cardContainer">
 
@@ -87,8 +87,8 @@
                     </div>
 
                 </div>
-            </div>
-            <div class="aboutContainer">
+            </section>
+            <section class="aboutContainer">
                 <div class="profileContainer">
                     <img src="./img/profilePic_01.jpg" alt="profile_pic">
                 </div>
@@ -99,8 +99,8 @@
                     Let's make something special.</p>
                     <button>See more</button>
                 </div>
-            </div>
-            <div class="myworkContainer">
+            </section>
+            <section class="myworkContainer">
 
                 <div class="menuWork">
                     <h2>My <span>Latest Work</span></h2>
@@ -113,7 +113,7 @@
 
                 <div class="myworkCardContainer">
 
-                    <div class="myworkCard filterDiv ui">
+                    <div class="myworkCard filterDiv landingPage">
                         <img src="img/project/huddleProject.jpg" alt="sampleCard">
                         <div class="myworkCardInfo">
                             <h2>Huddle Landing Page</h2>
@@ -122,7 +122,7 @@
                         </div>
                     </div>
 
-                    <div class="myworkCard filterDiv ui">
+                    <div class="myworkCard filterDiv landingPage">
                         <img src="img/project/fyloProject.jpg" alt="sampleCard">
                         <div class="myworkCardInfo">
                             <h2>Fylo Website</h2>
@@ -131,7 +131,7 @@
                         </div>
                     </div>
 
-                    <div class="myworkCard filterDiv ui">
+                    <div class="myworkCard filterDiv landingPage">
                         <img src="img/project/product.jpg" alt="sampleCard">
                         <div class="myworkCardInfo">
                             <h2>Product Landing Page</h2>
@@ -140,56 +140,54 @@
                         </div>
                     </div>
 
-                    <div class="myworkCard filterDiv landingPage">
-                        <img src="./img/pic01.jpg" alt="sampleCard">
+                    <div class="myworkCard filterDiv  ui">
+                        <img src="img/project/ui-01-edit.jpg" alt="sampleCard">
                         <div class="myworkCardInfo">
-                            <h2>Landing Page</h2>
-                            <p>This is a sample design
-                            CardSample2</p>
-                            <button>Check Demo</button>
+                            <h2>Note Web App</h2>
+                            <p>This ui help notes every you task your need</p>
+                            <a href="https://florbear23.github.io/ui-01-build-app/" target="_blank"><button>Check Demo</button></a>
                         </div>
                     </div>
 
-                    <div class="myworkCard filterDiv landingPage">
-                        <img src="./img/pic01.jpg" alt="sampleCard">
+                    <div class="myworkCard filterDiv  ui">
+                        <img src="img/project/ui-02-edit.jpg" alt="sampleCard">
                         <div class="myworkCardInfo">
-                            <h2>Landing Page</h2>
-                            <p>This is a sample design
-                            CardSample2</p>
-                            <button>Check Demo</button>
+                            <h2>Image Editor</h2>
+                            <p>this image Editor Design</p>
+                            <a href="https://florbear23.github.io/ui-o2-img-filter/" target="_blank"><button>Check Demo</button></a>
                         </div>
                     </div>
 
-                    <div class="myworkCard filterDiv landingPage">
-                        <img src="./img/pic01.jpg" alt="sampleCard">
+                    <div class="myworkCard filterDiv  ui">
+                        <img src="img/project/ui-03-edit.jpg" alt="sampleCard">
                         <div class="myworkCardInfo">
-                            <h2>Landing Page</h2>
-                            <p>This is a sample design
-                            CardSample2</p>
-                            <button>Check Demo</button>
+                            <h2>Password Generator</h2>
+                            <p>generate your own password</p>
+                            <a href="https://florbear23.github.io/ui-03-password-generator/" target="_blank"><button>Check Demo</button></a>
                         </div>
                     </div>
 
             </div>
-        </div>
-        <div class="contactContainer">
+        </section>
+
+        <section class="contactContainer">
 
             <div class="contactMeContainer">
                 <h2>Contact <span>Me</span></h2>
-                <form action="">
+                <form action="https://formsubmit.co/bersamina2323@gmail.com" method="POST">
                     <div class="infonContainer01">
                         <div class="fullNameContainer">
                             <label>Full Name</label>
-                            <input type="text" id="" placeholder="Your Name" required>
+                            <input type="text" id="" placeholder="Your Name" required name="name">
                         </div>
                         <div class="lastNameContainer">
-                            <label>Last Name</label>
-                            <input type="text" id="" placeholder="Last Name" required>
+                            <label>Email</label>
+                            <input type="email" id="" placeholder="Email" required name="email">
                         </div>
                     </div>
                     <div class="messageContainer">
                         <label>Message</label>
-                        <textarea name="" id="" cols="30" rows="10" required></textarea>
+                        <textarea cols="30" rows="10" required name="message" placeholder="Message"></textarea>
                     </div>
                     <input type="submit" value="Send">
                 </form>
@@ -214,14 +212,14 @@
                 </div>
             </div>
 
-        </div>
+        </section>
         </div>
     </div>
 <footer class="mainContainer">
 
     <div class="footerContainer">
         <div class="footerInfo footerMe">
-            <h2>Logo</h2>
+            <h2>MBPORTFOLIO</h2>
             <h3>About me</h3>
             <p>I'm a Free lance Front-End Developer  in makati city. I have serious passion for UI design and creating intuitive, dynamic user experiences.
             Let's make something special.</p>

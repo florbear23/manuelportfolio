@@ -20,12 +20,11 @@ const closeNav=()=> {
 
 let loader = document.querySelector(".loaderContainer");
 
-
 window.addEventListener("load", nawala);
 
 function nawala(){
     loader.classList.add("disppear");
-    
+
 
 }
 
