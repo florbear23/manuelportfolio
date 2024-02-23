@@ -10,6 +10,13 @@
     <link rel="stylesheet" href="../css/porrfolio.css">
     <link rel="stylesheet" href="../css/freeloder.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Include Slick JS -->
+    <link rel="stylesheet" type="text/css" href="../slick-1.5.9/slick/slick.css
+    "/>
+    // Add the new slick-theme.css if you want the default styling
+    <link rel="stylesheet" type="text/css" href="../slick-1.5.9/slick/slick-theme.css"/>
+    
     <title>porfolio</title>
 </head>
 <body>
@@ -49,7 +56,8 @@
                 <h2>My Latest <span>Portfolio</span> </h2>
                 <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy </p>
             </div>
-            <div class="porfolioImgContainer">
+            <div class="porfolioImgContainer" id="porfolioImgContainer">
+                <img src="../img/project/profile-portfolio.jpg" alt="porfolio">
                 <img src="../img/project/profile-portfolio.jpg" alt="porfolio">
             </div>
         </div>
@@ -65,61 +73,9 @@
                 </ul>
             </div>
 
-            <div class="myworkCardContainer">
+            <div class="myworkCardContainer" id="jsonDataContainer">
 
-                <div class="myworkCard filterDiv landingPage">
-                    <img src="../img/project/huddleProject.jpg" alt="sampleCard">
-                    <div class="myworkCardInfo">
-                        <h2>Huddle Landing Page</h2>
-                        <p>this website is frontEnd mentor Project</p>
-                        <a href="https://florbear23.github.io/landingPage02/" target="_blank"><button>Check Demo</button></a>
-                    </div>
-                </div>
-
-                <div class="myworkCard filterDiv landingPage">
-                    <img src="../img/project/fyloProject.jpg" alt="sampleCard">
-                    <div class="myworkCardInfo">
-                        <h2>Fylo Website</h2>
-                        <p>This is landing page website </p>
-                        <a href="https://florbear23.github.io/landingPage03/" target="_blank"><button>Check Demo</button></a>
-                    </div>
-                </div>
-
-                <div class="myworkCard filterDiv landingPage">
-                    <img src="../img/project/product.jpg" alt="sampleCard">
-                    <div class="myworkCardInfo">
-                        <h2>Product Landing Page</h2>
-                        <p>This website is product document</p>
-                        <a href="https://florbear23.github.io/landingpage04r/" target="_blank"><button>Check Demo</button></a>
-                    </div>
-                </div>
-
-                <div class="myworkCard filterDiv  ui">
-                    <img src="../img/project/ui-01-edit.jpg" alt="sampleCard">
-                    <div class="myworkCardInfo">
-                        <h2>Note Web App</h2>
-                        <p>This ui help notes every you task your need</p>
-                        <a href="https://florbear23.github.io/ui-01-build-app/" target="_blank"><button>Check Demo</button></a>
-                    </div>
-                </div>
-
-                <div class="myworkCard filterDiv  ui">
-                    <img src="../img/project/ui-02-edit.jpg" alt="sampleCard">
-                    <div class="myworkCardInfo">
-                        <h2>Image Editor</h2>
-                        <p>this image Editor Design</p>
-                        <a href="https://florbear23.github.io/ui-o2-img-filter/" target="_blank"><button>Check Demo</button></a>
-                    </div>
-                </div>
-
-                <div class="myworkCard filterDiv  ui">
-                    <img src="../img/project/ui-03-edit.jpg" alt="sampleCard">
-                    <div class="myworkCardInfo">
-                        <h2>Password Generator</h2>
-                        <p>generate your own password</p>
-                        <a href="https://florbear23.github.io/ui-03-password-generator/" target="_blank"><button>Check Demo</button></a>
-                    </div>
-                </div>
+              
 
         </div>
 
@@ -163,6 +119,41 @@
     </div>
 
 </footer>
+
+
 </body>
-<script src="../js/main.js"></script>
+<script src="../js/portfolio.js"></script>
+
+
+<script type="text/javascript" src="../slick-1.5.9/slick/slick.js"></script>
+</script>
+
+<script>
+// Intersection Observer options
+var options = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.5 // Trigger animation when 50% of the element is in the viewport
+  };
+
+  // Intersection Observer callback function
+  function handleIntersection(entries, observer) {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        // Element is in view, add animation class
+        entry.target.classList.add('animate-bounce');
+      } else {
+        // Element is out of view, remove animation class
+        entry.target.classList.remove('animate-bounce');
+      }
+    });
+  }
+
+  // Create an Intersection Observer instance
+  var observer = new IntersectionObserver(handleIntersection, options);
+
+  // Observe the target element
+  observer.observe(document.querySelector('#jsonDataContainer'));
+  </script>
+
 </html>

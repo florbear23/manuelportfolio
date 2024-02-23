@@ -69,12 +69,12 @@
 }
 
 .contactContainer .contactMeContainer {
-    max-width: 100%;
+    max-width: 1098px;
     width: 100%;
 }
 
 .contactContainer {
-    max-width: 1119px;
+    max-width: 100%;
     width: 100%;
 }
 
@@ -85,4 +85,18 @@ form .fullNameContainer, form .lastNameContainer {
 
 .messageContainer textarea{
     max-width: 100%;
+}
+
+
+@media only screen and (max-width:1112px){
+
+    form .fullNameContainer, form .lastNameContainer {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .contactContainer {
+        padding: 2rem;
+    }
+
 }
