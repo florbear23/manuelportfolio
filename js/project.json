@@ -1,19 +1,19 @@
  [
     {
         "id":1,
-        "pictureProject":"img/project/huddleProject.jpg",
+        "pictureProject":"./img/project/huddleProject.jpg",
         "titleProject":"Landing Page",
         "discription":"This is a sample design Card"
     },
     {
         "id":2,
-        "pictureProject":"img/project/fyloProject.jpg.jpg",
+        "pictureProject":".img/project/fyloProject.jpg.jpg",
         "titleProject":"Landing Page",
         "discription":"This is a sample design Card"
     },
     {
         "id":3,
-        "pictureProject":"img/pic01.jpg",
+        "pictureProject":"./img/pic01.jpg",
         "titleProject":"Landing Page",
         "discription":"This is a sample design Card"
     }
