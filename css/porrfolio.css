@@ -56,20 +56,6 @@
     border-radius: 30px;
 }
 
-
-
-#porfolioImgContainer .slick-dots li button:before{
-    font-size:20px!important;
-    color: #DF463C;
-    opacity: .25;
-    
-}
-#porfolioImgContainer .slick-dots li.slick-active button:before{
-    color: #DF463C;
-    opacity: .75;
-}
-
-
 @media only screen and (max-width:1170px){
     .container{
         max-width: 1024px;
