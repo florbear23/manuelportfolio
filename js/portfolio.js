@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', function () {
           // Populate the card box with person data
           card.innerHTML = `
 
-          <div class="myworkCard filterDiv show ${project.projectType}">
+          <div class="myworkCard filterDiv show ${project.projectType}" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500">
                 <img src="${project.projectPicture}" alt="sampleCard">
                 <div class="myworkCardInfo">
                     <h2>${project.projectName}</h2>

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/freeloder.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>my personal porfolio</title>
 </head>
 <body>
@@ -44,12 +45,10 @@
         </div>
 
         <div class="mainAboutMeContainer">
-            <div class="aboutMeContainer2 flex">
+            <div class="aboutMeContainer2 flex" data-aos="zoom-in" data-aos-easing="linear"  data-aos-duration="1500">
                 <div class="aboutInfo flex">
                     <h2 class="blue-text">About <span>Me</span></h2>
-                    <p>I'm a Free lance Front-End Developer  in makati city
-                    . I have serious passion for UI design and creating intuitive, dynamic user experiences.
-                    Let's make something special.</p>
+                    <p>Hello there! 👋 I'm [Your Name], a passionate front-end developer with a knack for turning ideas into interactive and visually stunning digital experiences. My journey in the world of web development has been an exhilarating adventure, fueled by creativity and a commitment to excellence.</p>
                     <h3 class="blue-text">Certificate</h3>
                     <div class="certiContainer">
                         <ul class="flex">
@@ -60,7 +59,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="aboutImg">
+                <div class="aboutImg" data-aos="zoom-in" data-aos-easing="linear"  data-aos-duration="1500">
                     <img src="../img/profilePic_01.jpg" alt="">
                 </div>
             </div>
@@ -76,16 +75,16 @@
 
 
         <div class="aboutSkillContainer flex">
-            <div class="skillPicture flex">
+            <div class="skillPicture flex" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500">
                 <img src="../img/project/new-skill-profile.jpg" alt="Skill">
             </div>
-            <div class="skillRangeContainer flex">
+            <div class="skillRangeContainer flex" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
                 <div class="skillButton flex tab">
                     <button class="tablinks active" onclick="openSkills(event, 'WebsiteDesign')">Design Skill</button>
                     <button class="tablinks" onclick="openSkills(event, 'ProgramDesign')">Front/Back-end Skills</button>
                     <button class="tablinks" onclick="openSkills(event, 'ToolDesign')">Computer Skills</button>
                 </div>
-                <div class="skillInfo flex tabcontent tabcontent2 " id="WebsiteDesign">
+                <div class="skillInfo flex tabcontent tabcontent2 " id="WebsiteDesign" data-aos="fade-left">
                     <h2>DESIGN <span>SKILLS</span></h2>
                     <ul class="flex">
                         <li>PHOTOSHOP</li>
@@ -120,33 +119,38 @@
         <div class="myWorkExpContainer flex">
             <div class="workHistoryContainer flex">
                 <h2>My Work <span>Experience</span></h2>
-                <div class="workHistory flex">
+                <div class="workHistory flex" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                    <h3>Wordpress <span>Developer:</span></h3>
+                    <p><span>iTworks</span>  Aug 1 2023 To Feb 1 2024.
+                        Proficient in leveraging the full potential of WordPress, I specialize in creating custom themes, plugins, and bespoke solutions tailored to each project's requirements. using PHP,HTML,JS,CSS</p>
+                </div>
+                <div class="workHistory flex" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <h3>Front End <span>Developer:</span></h3>
                     <p><span>Transcosmos philippines</span>  march 28 2022  To Sep 30 2022.
                     Converting PHOTOSHOP Website Design To html,css,Javascript</p>
                 </div>
-                <div class="workHistory flex">
+                <div class="workHistory flex" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <h3>I.T <span>Coodinator:</span></h3>
                     <p><span>Boro Company</span>  June 5 2019  To June 30 2020.
                     Monitoring Network System and Computer Repairing  Everyday</p>
                 </div>
-                <div class="workHistory flex">
+                <div class="workHistory flex" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <h3>Front End <span>Developer:</span></h3>
                     <p><span> Digits Comp.</span> Nov 4 2018 To May 4 2019.
                     Creating Website system using html ,Css Boostrap Framework And Back end Using Php.</p>
                 </div>
-                <div class="workHistory flex">
+                <div class="workHistory flex" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <h3>Back End <span>Developer:</span></h3>
                     <p><span>Rivista solution</span> June 10 2018  To October 20 2018.
                     Creating Sytem using Odoo10 crm  and Back End using Pyton Language</p>
                 </div>
-                <div class="workHistory flex">
+                <div class="workHistory flex" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <h3>Ouality <span>Control:</span></h3>
                     <p><span>Pivot Hawks</span> June 5 2019  To June 30 2020.
                     picos machine factory i Check One By One of Unit If it goods No Problem</p>
                 </div>
             </div>
-            <div class="workHistoryImg">
+            <div class="workHistoryImg" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
                 <img src="../img/project/img-history.jpg" alt="">
             </div>
         </div>
@@ -196,4 +200,9 @@
 
 </body>
 <script src="../js/main.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 </html>

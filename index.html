@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="./css/freeloder.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>my personal porfolio</title>
 </head>
 <body>
@@ -43,13 +44,16 @@
             </ul>
         </section>
 
-        <section class="hero-design waterEffect" >
+        <section class="hero-design " >
             <div class="hero-container">
                 <div class="hero-name">
                     <h2>Hi  I’m <span>Manuel</span></h2>
                     <p href="" class="typewrite" data-period="2000" data-type='[ "Front-End Developer ", "a Freelancer"]'> <span class="textWrapHero"></span></p>
                     <button>See More</button>
                 </div>
+                <!-- <div class="hero-picture">
+                    <img src="./img/profilePic_03.png" alt="">
+                </div> -->
             </div>
         </section>
 
@@ -59,7 +63,7 @@
                 <h2 class="serviceTitle">This Is My Expertise <span> The Sevice I Provide</span></h2>
                 <div class="cardContainer">
 
-                    <div class="serviceCard">
+                    <div class="serviceCard" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500">
                         <img src="https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg" alt="sample">
                         <h2>Web Development</h2>
                         <p>Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services</p>
@@ -68,7 +72,7 @@
                         </div>
                     </div>
 
-                    <div class="serviceCard">
+                    <div class="serviceCard" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500">
                         <img src="https://img.freepik.com/free-vector/cartoon-web-design-background_52683-70879.jpg?w=2000" alt="sample">
                         <h2>Web Designs</h2>
                         <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development.</p>
@@ -77,7 +81,7 @@
                         </div>
                     </div>
 
-                    <div class="serviceCard">
+                    <div class="serviceCard" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="4000">
                         <img src="https://www.mtu.edu/cs/what/images/what-is-computer-science-banner1600.jpg" alt="sample">
                         <h2>Computer Tech</h2>
                         <p>computer technology. the activity of designing and constructing and programming computers. type of: engineering, technology. the practical application of science to commerce or industry. </p>
@@ -89,14 +93,12 @@
                 </div>
             </section>
             <section class="aboutContainer">
-                <div class="profileContainer">
+                <div class="profileContainer" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
                     <img src="./img/profilePic_01.jpg" alt="profile_pic">
                 </div>
-                <div class="aboutMeContainer">
+                <div class="aboutMeContainer " data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000">
                     <h2>About <span>Me</span></h2>
-                    <p>I'm a Free lance Front-End Developer  in makati city
-                    . I have serious passion for UI design and creating intuitive, dynamic user experiences.
-                    Let's make something special.</p>
+                    <p>Hello there! 👋 I'm Manuel, a passionate front-end developer with a knack for turning ideas into interactive and visually stunning digital experiences. My journey in the world of web development has been an exhilarating adventure, fueled by creativity and a commitment to excellence.</p>
                     <button>See more</button>
                 </div>
             </section>
@@ -111,9 +113,9 @@
                     </ul>
                 </div>
 
-                <div class="myworkCardContainer">
+                <div class="myworkCardContainer"  id="jsonDataContainer">
 
-                    <div class="myworkCard filterDiv landingPage">
+                    <!-- <div class="myworkCard filterDiv landingPage">
                         <img src="img/project/huddleProject.jpg" alt="sampleCard">
                         <div class="myworkCardInfo">
                             <h2>Huddle Landing Page</h2>
@@ -165,14 +167,22 @@
                             <p>generate your own password</p>
                             <a href="https://florbear23.github.io/ui-03-password-generator/" target="_blank"><button>Check Demo</button></a>
                         </div>
-                    </div>
+                    </div> -->
 
             </div>
         </section>
 
+
+
+
+
+
+
+
+
         <section class="contactContainer">
 
-            <div class="contactMeContainer">
+            <div class="contactMeContainer" data-aos="zoom-in" data-aos-duration="2000">
                 <h2>Contact <span>Me</span></h2>
                 <form action="https://formsubmit.co/bersamina2323@gmail.com" method="POST">
                     <div class="infonContainer01">
@@ -193,7 +203,7 @@
                 </form>
             </div>
 
-            <div class="informationContainer">
+            <div class="informationContainer" data-aos="zoom-in" data-aos-duration="2000">
                 <h2>Contact <span>Information</span></h2>
                 <div class="infoArea">
                     <h3>Email:</h3>
@@ -258,6 +268,10 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery.ripples@0.6.3/dist/jquery.ripples.min.js"></script>
 <script src="./js/waterEffect.js"></script>
 <script src="js/main.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 
 
