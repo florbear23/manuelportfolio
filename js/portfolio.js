@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', function () {
       .then(jsonData => {
         // Create a container for the card boxes
         const cardContainer = document.createElement('div');
-        cardContainer.classList.add('myworkCardContainer2');
+        cardContainer.classList.add('myworkCardContainer');
 
         
   
