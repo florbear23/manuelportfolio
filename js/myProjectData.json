@@ -3,7 +3,7 @@
   {
     "projectName":"name1",
     "projectDeatils":"sample1",
-    "projectPicture":"../img/project/huddleProject.jpg",
+    "projectPicture":"./img/project/huddleProject.jpg",
     "projectLink":"your-link",
     "projectType":"ui",
     "link":"https://florbear23.github.io/landingPage02/"
@@ -11,7 +11,7 @@
   {
     "projectName":"name2",
     "projectDeatils":"sample2",
-    "projectPicture":"../img/project/fyloProject.jpg",
+    "projectPicture":"./img/project/fyloProject.jpg",
     "projectLink":"your-link",
     "projectType":"landingPage",
     "link":"https://florbear23.github.io/landingPage03/"
@@ -19,7 +19,7 @@
   {
     "projectName":"name3",
     "projectDeatils":"sample3",
-    "projectPicture":"../img/project/product.jpg",
+    "projectPicture":"./img/project/product.jpg",
     "projectLink":"your-link",
     "projectType":"ui",
     "link":"https://florbear23.github.io/landingpage04r/"
@@ -27,7 +27,7 @@
   {
     "projectName":"name4",
     "projectDeatils":"sample4",
-    "projectPicture":"../img/project/ui-01-edit.jpg",
+    "projectPicture":"./img/project/ui-01-edit.jpg",
     "projectLink":"your-link",
     "projectType":"ui",
     "link":"https://florbear23.github.io/landingpage04r/"
@@ -35,7 +35,7 @@
   {
     "projectName":"name5",
     "projectDeatils":"sample5",
-    "projectPicture":"../img/project/ui-02-edit.jpg",
+    "projectPicture":"./img/project/ui-02-edit.jpg",
     "projectLink":"your-link",
     "projectType":"ui",
     "link":"https://florbear23.github.io/landingpage04r/"
@@ -43,7 +43,7 @@
   {
     "projectName":"name6",
     "projectDeatils":"sample6",
-    "projectPicture":"../img/project/ui-03-edit.jpg",
+    "projectPicture":"./img/project/ui-03-edit.jpg",
     "projectLink":"your-link",
     "projectType":"ui",
     "link":"https://florbear23.github.io/landingpage04r/"
@@ -51,7 +51,7 @@
   {
     "projectName":"name6",
     "projectDeatils":"sample6",
-    "projectPicture":"../img/project/ui-03-edit.jpg",
+    "projectPicture":"./img/project/ui-03-edit.jpg",
     "projectLink":"your-link",
     "projectType":"ui",
     "link":"https://florbear23.github.io/landingpage04r/"
