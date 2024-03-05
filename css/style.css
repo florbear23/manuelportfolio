@@ -398,7 +398,7 @@ nav .nav-links ul,
     flex-direction: column;
     row-gap: 5px;
     position: absolute;
-    top: 120px;
+    top: 100px;
     left: 13px;
     padding: 0 5px;
 }

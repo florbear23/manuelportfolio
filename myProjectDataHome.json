@@ -1,59 +1,60 @@
 
 [
   {
-    "projectName":"name1",
-    "projectDeatils":"sample1",
-    "projectPicture":"./img/project/huddleProject.jpg",
+    "projectName":"Jolly Group",
+    "projectDeatils":"this website is custom wordpress using html,css,js and PHP ",
+    "projectPicture":"./img/project/jolly.png",
     "projectLink":"your-link",
-    "projectType":"ui",
-    "link":"https://florbear23.github.io/landingPage02/"
+    "projectType":"wordpress",
+    "link":"https://www.jolly.ph/"
   },
   {
-    "projectName":"name2",
-    "projectDeatils":"sample2",
-    "projectPicture":"./img/project/fyloProject.jpg",
+    "projectName":"SBLC",
+    "projectDeatils":"this website is custom wordpress using html,css,js and PHP ",
+    "projectPicture":"./img/project/sblc.png",
     "projectLink":"your-link",
-    "projectType":"landingPage",
-    "link":"https://florbear23.github.io/landingPage03/"
+    "projectType":"wordpress",
+    "link":"https://sblc.vastglobalsolutions.com/"
   },
   {
-    "projectName":"name3",
-    "projectDeatils":"sample3",
-    "projectPicture":"./img/project/product.jpg",
+    "projectName":"Deltamed",
+    "projectDeatils":"this website is custom wordpress using html,css,js and PHP ",
+    "projectPicture":"./img/project/deltamed.png",
     "projectLink":"your-link",
-    "projectType":"ui",
-    "link":"https://florbear23.github.io/landingpage04r/"
+    "projectType":"wordpress",
+    "link":"https://www.finecareph.com/"
   },
   {
-    "projectName":"name4",
-    "projectDeatils":"sample4",
-    "projectPicture":"./img/project/ui-01-edit.jpg",
+    "projectName":"pflcwi",
+    "projectDeatils":"this website is custom wordpress using html,css,js and PHP ",
+    "projectPicture":"./img/project/philippineWomen.png",
     "projectLink":"your-link",
-    "projectType":"ui",
-    "link":"https://florbear23.github.io/landingpage04r/"
+    "projectType":"wordpress",
+    "link":"https://pflcwi.vastglobalsolutions.com/ "
   },
   {
-    "projectName":"name5",
-    "projectDeatils":"sample5",
-    "projectPicture":"./img/project/ui-02-edit.jpg",
+    "projectName":"RBM",
+    "projectDeatils":"this website is custom wordpress using html,css,js and PHP ",
+    "projectPicture":"./img/project/rbm.png",
     "projectLink":"your-link",
-    "projectType":"ui",
-    "link":"https://florbear23.github.io/landingpage04r/"
+    "projectType":"wordpress",
+    "link":"https://rbm.vastglobalsolutions.com/ "
   },
   {
-    "projectName":"name6",
-    "projectDeatils":"sample6",
-    "projectPicture":"./img/project/ui-03-edit.jpg",
+    "projectName":"Modular",
+    "projectDeatils":"this website is custom wordpress using html,css,js and PHP ",
+    "projectPicture":"./img/project/modular.png",
     "projectLink":"your-link",
-    "projectType":"ui",
-    "link":"https://florbear23.github.io/landingpage04r/"
-  },
+    "projectType":"wordpress",
+    "link":"https://modular.vastglobalsolutions.com/ "
+  }
+  ,
   {
-    "projectName":"name6",
-    "projectDeatils":"sample6",
-    "projectPicture":"./img/project/ui-03-edit.jpg",
+    "projectName":"Modular",
+    "projectDeatils":"this website is custom wordpress using html,css,js and PHP ",
+    "projectPicture":"./img/project/modular.png",
     "projectLink":"your-link",
-    "projectType":"ui",
-    "link":"https://florbear23.github.io/landingpage04r/"
+    "projectType":"wordpress",
+    "link":"https://modular.vastglobalsolutions.com/ "
   }
 ]
