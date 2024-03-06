@@ -1,59 +1,172 @@
 
 [
     {
-      "projectName":"name1",
-      "projectDeatils":"sample1",
-      "projectPicture":"./img/project/huddleProject.jpg",
-      "projectLink":"your-link",
-      "projectType":"ui",
-      "link":"https://florbear23.github.io/landingPage02/"
-    },
-    {
-      "projectName":"name2",
-      "projectDeatils":"sample2",
-      "projectPicture":"./img/project/fyloProject.jpg",
-      "projectLink":"your-link",
-      "projectType":"landingPage",
-      "link":"https://florbear23.github.io/landingPage03/"
-    },
-    {
-      "projectName":"name3",
-      "projectDeatils":"sample3",
-      "projectPicture":"./img/project/product.jpg",
-      "projectLink":"your-link",
-      "projectType":"ui",
-      "link":"https://florbear23.github.io/landingpage04r/"
-    },
-    {
-      "projectName":"name4",
-      "projectDeatils":"sample4",
-      "projectPicture":"./img/project/ui-01-edit.jpg",
-      "projectLink":"your-link",
-      "projectType":"ui",
-      "link":"https://florbear23.github.io/landingpage04r/"
-    },
-    {
-      "projectName":"name5",
-      "projectDeatils":"sample5",
-      "projectPicture":"./img/project/ui-02-edit.jpg",
-      "projectLink":"your-link",
-      "projectType":"ui",
-      "link":"https://florbear23.github.io/landingpage04r/"
-    },
-    {
-      "projectName":"name6",
-      "projectDeatils":"sample6",
-      "projectPicture":"./img/project/ui-03-edit.jpg",
-      "projectLink":"your-link",
-      "projectType":"ui",
-      "link":"https://florbear23.github.io/landingpage04r/"
-    },
-    {
-      "projectName":"name6",
-      "projectDeatils":"sample6",
-      "projectPicture":"./img/project/ui-03-edit.jpg",
-      "projectLink":"your-link",
-      "projectType":"ui",
-      "link":"https://florbear23.github.io/landingpage04r/"
-    }
-  ]
+    "projectName":"Jolly Group",
+    "projectDeatils":"this website is custom wordpress using html,css,js and PHP ",
+    "projectPicture":"../img/project/jolly.png",
+    "projectLink":"your-link",
+    "projectType":"wordpress",
+    "link":"https://www.jolly.ph/"
+  },
+  {
+    "projectName":"SBLC",
+    "projectDeatils":"this website is custom wordpress using html,css,js and PHP ",
+    "projectPicture":"../img/project/sblc.png",
+    "projectLink":"your-link",
+    "projectType":"wordpress",
+    "link":"https://sblc.vastglobalsolutions.com/"
+  },
+  {
+    "projectName":"Deltamed",
+    "projectDeatils":"this website is custom wordpress using html,css,js and PHP ",
+    "projectPicture":"../img/project/deltamed.png",
+    "projectLink":"your-link",
+    "projectType":"wordpress",
+    "link":"https://www.finecareph.com/"
+  },
+  {
+    "projectName":"pflcwi",
+    "projectDeatils":"this website is custom wordpress using html,css,js and PHP ",
+    "projectPicture":"../img/project/philippineWomen.png",
+    "projectLink":"your-link",
+    "projectType":"wordpress",
+    "link":"https://pflcwi.vastglobalsolutions.com/ "
+  },
+  {
+    "projectName":"RBM",
+    "projectDeatils":"this website is custom wordpress using html,css,js and PHP ",
+    "projectPicture":"../img/project/rbm.png",
+    "projectLink":"your-link",
+    "projectType":"wordpress",
+    "link":"https://rbm.vastglobalsolutions.com/ "
+  },
+  {
+    "projectName":"Modular",
+    "projectDeatils":"this website is custom wordpress using html,css,js and PHP ",
+    "projectPicture":"../img/project/modular.png",
+    "projectLink":"your-link",
+    "projectType":"wordpress",
+    "link":"https://modular.vastglobalsolutions.com/ "
+  },
+  {
+    "projectName":"SGC",
+    "projectDeatils":"this website is custom wordpress using html,css,js and PHP ",
+    "projectPicture":"../img/project/sgc.png",
+    "projectLink":"your-link",
+    "projectType":"wordpress",
+    "link":"https://sgc.vastglobalsolutions.com/ "
+  },
+  {
+    "projectName":"Bullet-proff",
+    "projectDeatils":"this website is custom wordpress using html,css,js and PHP ",
+    "projectPicture":"../img/project/bullet-proff.png",
+    "projectLink":"your-link",
+    "projectType":"wordpress",
+    "link":"https://bulletproof.vastglobalsolutions.com/"
+  }, 
+  {
+    "projectName":"Fujifast",
+    "projectDeatils":"this website is custom wordpress using html,css,js and PHP ",
+    "projectPicture":"../img/project/fugifast.png",
+    "projectLink":"your-link",
+    "projectType":"wordpress",
+    "link":"https://fujifast.vastglobalsolutions.com/"
+  }
+  ,
+  {
+    "projectName":"GLJM",
+    "projectDeatils":"this website is custom wordpress using html,css,js and PHP ",
+    "projectPicture":"../img/project/gljm.png",
+    "projectLink":"your-link",
+    "projectType":"wordpress",
+    "link":"https://gljm.vastglobalsolutions.com/ "
+  },
+  {
+    "projectName":"Zenhael",
+    "projectDeatils":"this website is custom wordpress using html,css,js and PHP ",
+    "projectPicture":"../img/project/zenhael.png",
+    "projectLink":"your-link",
+    "projectType":"wordpress",
+    "link":"https://zenhael.vastglobalsolutions.com/"
+  }, 
+  {
+    "projectName":"Hallmark",
+    "projectDeatils":"this website is custom wordpress using html,css,js and PHP ",
+    "projectPicture":"../img/project/hallmark.png",
+    "projectLink":"your-link",
+    "projectType":"wordpress",
+    "link":"https://hallmark.vastglobalsolutions.com/"
+  }, 
+  {
+    "projectName":"Johnathan Specter",
+    "projectDeatils":"Landing page html,css,js",
+    "projectPicture":"../img/project/specter.png",
+    "projectLink":"your-link",
+    "projectType":"landingPage",
+    "link":"https://florbear23.github.io/landingPage01/"
+  }, 
+  {
+    "projectName":"Huddle",
+    "projectDeatils":"Landing page html,css,js",
+    "projectPicture":"../img/project/project2.png",
+    "projectLink":"your-link",
+    "projectType":"landingPage",
+    "link":"https://florbear23.github.io/landingPage02/"
+  },
+  {
+    "projectName":"Fylo",
+    "projectDeatils":"Landing page html,css,js",
+    "projectPicture":"../img/project/fylo.png",
+    "projectLink":"your-link",
+    "projectType":"landingPage",
+    "link":"https://florbear23.github.io/landingPage03/"
+  },
+  {
+    "projectName":"Easybank",
+    "projectDeatils":"Landing page html,scss,js",
+    "projectPicture":"../img/project/easybank.png",
+    "projectLink":"your-link",
+    "projectType":"landingPage",
+    "link":"https://florbear23.github.io/easybank/"
+  },
+  {
+    "projectName":"Insure",
+    "projectDeatils":"Landing page html,scss,js",
+    "projectPicture":"../img/project/insure.png",
+    "projectLink":"your-link",
+    "projectType":"landingPage",
+    "link":"https://florbear23.github.io/inzureLandingPage/"
+  },
+  {
+    "projectName":"C",
+    "projectDeatils":"Landing page html,scss,js",
+    "projectPicture":"../img/project/c.png",
+    "projectLink":"your-link",
+    "projectType":"landingPage",
+    "link":"https://florbear23.github.io/landingpage04r/"
+  },
+  {
+    "projectName":"Password Generator",
+    "projectDeatils":"Landing page html,scss,js",
+    "projectPicture":"../img/project/password.png",
+    "projectLink":"your-link",
+    "projectType":"ui",
+    "link":"https://florbear23.github.io/ui-03-password-generator/"
+  },
+  {
+    "projectName":"Notes ui",
+    "projectDeatils":"Landing page html,scss,js",
+    "projectPicture":"../img/project/notes.png",
+    "projectLink":"your-link",
+    "projectType":"ui",
+    "link":"https://florbear23.github.io/ui-01-build-app/"
+  },
+  {
+    "projectName":"Image Filter",
+    "projectDeatils":"Landing page html,scss,js",
+    "projectPicture":"../img/project/filter.png",
+    "projectLink":"your-link",
+    "projectType":"ui",
+    "link":"https://florbear23.github.io/ui-o2-img-filter/"
+  }
+]

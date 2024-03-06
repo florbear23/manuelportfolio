@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const container = document.getElementById('jsonDataContainer');
   
     // Fetch the local JSON data
-    fetch('../js/myProjectData.json')
+    fetch('../js/porfolio.json')
       .then(response => {
         if (!response.ok) {
           throw new Error(`Network response was not ok: ${response.status}`);
@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', function () {
           // Populate the card box with person data
           card.innerHTML = `
 
-          <div class="myworkCard filterDiv show ${project.projectType}" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500">
+          <div class="myworkCard card filterDiv show ${project.projectType}" >
                 <img src="${project.projectPicture}" alt="sampleCard">
                 <div class="myworkCardInfo">
                     <h2>${project.projectName}</h2>
