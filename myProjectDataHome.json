@@ -18,36 +18,36 @@
     "link":"https://sblc.vastglobalsolutions.com/"
   },
   {
-    "projectName":"Deltamed",
-    "projectDeatils":"this website is custom wordpress using html,css,js and PHP ",
-    "projectPicture":"./img/project/deltamed.png",
+    "projectName":"Fylo",
+    "projectDeatils":"Landing page html,css,js",
+    "projectPicture":"./img/project/fylo.png",
     "projectLink":"your-link",
-    "projectType":"wordpress",
-    "link":"https://www.finecareph.com/"
+    "projectType":"landingPage",
+    "link":"https://florbear23.github.io/landingPage03/"
   },
   {
-    "projectName":"pflcwi",
-    "projectDeatils":"this website is custom wordpress using html,css,js and PHP ",
-    "projectPicture":"./img/project/philippineWomen.png",
+    "projectName":"Easybank",
+    "projectDeatils":"Landing page html,scss,js",
+    "projectPicture":"./img/project/easyBank.png",
     "projectLink":"your-link",
-    "projectType":"wordpress",
-    "link":"https://pflcwi.vastglobalsolutions.com/ "
+    "projectType":"landingPage",
+    "link":"https://florbear23.github.io/easybank/"
   },
   {
-    "projectName":"RBM",
-    "projectDeatils":"this website is custom wordpress using html,css,js and PHP ",
-    "projectPicture":"./img/project/rbm.png",
+    "projectName":"Password Generator",
+    "projectDeatils":"Landing page html,scss,js",
+    "projectPicture":"./img/project/password.png",
     "projectLink":"your-link",
-    "projectType":"wordpress",
-    "link":"https://rbm.vastglobalsolutions.com/ "
+    "projectType":"ui",
+    "link":"https://florbear23.github.io/ui-03-password-generator/"
   },
   {
-    "projectName":"Modular",
-    "projectDeatils":"this website is custom wordpress using html,css,js and PHP ",
-    "projectPicture":"./img/project/modular.png",
+    "projectName":"Notes ui",
+    "projectDeatils":"Landing page html,scss,js",
+    "projectPicture":"./img/project/notes.png",
     "projectLink":"your-link",
-    "projectType":"wordpress",
-    "link":"https://modular.vastglobalsolutions.com/ "
+    "projectType":"ui",
+    "link":"https://florbear23.github.io/ui-01-build-app/"
   }
   ,
   {
