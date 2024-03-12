@@ -20,7 +20,11 @@
   {
     "projectName":"Fylo",
     "projectDeatils":"Landing page html,css,js",
+<<<<<<< HEAD
     "projectPicture":"./img/project/fylo.png",
+=======
+    "projectPicture":"../img/project/fylo.png",
+>>>>>>> e81182093c5ba8d88c08bba9f1971a0322e3a046
     "projectLink":"your-link",
     "projectType":"landingPage",
     "link":"https://florbear23.github.io/landingPage03/"
@@ -28,7 +32,11 @@
   {
     "projectName":"Easybank",
     "projectDeatils":"Landing page html,scss,js",
+<<<<<<< HEAD
     "projectPicture":"./img/project/easyBank.png",
+=======
+    "projectPicture":"../img/project/easyBank.png",
+>>>>>>> e81182093c5ba8d88c08bba9f1971a0322e3a046
     "projectLink":"your-link",
     "projectType":"landingPage",
     "link":"https://florbear23.github.io/easybank/"
@@ -36,7 +44,11 @@
   {
     "projectName":"Password Generator",
     "projectDeatils":"Landing page html,scss,js",
+<<<<<<< HEAD
     "projectPicture":"./img/project/password.png",
+=======
+    "projectPicture":"../img/project/password.png",
+>>>>>>> e81182093c5ba8d88c08bba9f1971a0322e3a046
     "projectLink":"your-link",
     "projectType":"ui",
     "link":"https://florbear23.github.io/ui-03-password-generator/"
@@ -44,7 +56,11 @@
   {
     "projectName":"Notes ui",
     "projectDeatils":"Landing page html,scss,js",
+<<<<<<< HEAD
     "projectPicture":"./img/project/notes.png",
+=======
+    "projectPicture":"../img/project/notes.png",
+>>>>>>> e81182093c5ba8d88c08bba9f1971a0322e3a046
     "projectLink":"your-link",
     "projectType":"ui",
     "link":"https://florbear23.github.io/ui-01-build-app/"
