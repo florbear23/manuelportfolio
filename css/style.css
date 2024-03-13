@@ -310,6 +310,7 @@ nav .nav-links ul,
     height: auto;
     box-shadow: 10px 6px 5px 0px rgba(196, 182, 182, 0.20);
     object-fit: cover;
+    border-radius: 2rem;
 }
 
 .aboutMeContainer {
